@@ -1,5 +1,6 @@
 html *{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: aliceblue;
 }
 
 #home{
@@ -17,21 +18,48 @@ html *{
 
 #list-recipes{
     font-size: 20px;
-    text-align: center;
+    margin-left: 775px;
+    
+    list-style: none;
 }
 
 img{
    width:500px;
    height:auto; 
    display: block;
-   margin-left: auto;
-   margin-right: auto;
+   margin:auto;
    border-color: black;
    border: 2px solid black;
 }
 
-h2{
+#description{
+    margin-left: 250px;
+    padding-top: 10px;
+}
 
+#food-description{
+    text-align: left;
+    width: 500px;
+    margin-left: 100px;
+}
+
+#ingredients{
+    margin-left: 260px;
+    padding-top: 10px;
+}
+
+#ingredient-list{
+    margin-left: 235px;
+}
+
+#steps{
+    margin-left: 275px;
+    padding-top: 10px;
+}
+
+#steps-list{
+    margin-left: 100px;
+    padding-bottom: 20px;    
 }
 
 
